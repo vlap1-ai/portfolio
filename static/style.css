@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7ff; /* nền sáng */
+    color: #111;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+}
+
+/* HERO TEXT */
+.hero-left p {
+    margin: 0;
+}
+
+.hero-left h1 {
+    font-size: 44px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+/* HERO IMAGE */
+.hero-right img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* BUTTON */
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2d5bff;
+    color: white;
+    font-weight: 600;
+}
+
+/* SECTION TITLE */
+h2 {
+    padding-left: 60px;
+    margin-top: 60px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px 60px;
+}
+
+/* PROJECT CARD */
+.project {
+    position: relative;
+    height: 190px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+/* hover đẹp */
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE FIX */
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* TITLE LABEL */
+.overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(255,255,255,0.85);
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* LINKS FOOTER STYLE (nếu có) */
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    color: #555;
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 60px;
+    background: #ffffff;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+}
+
+.footer h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.footer-desc {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* LINKS */
+.footer-links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #f4f7ff;
+    color: #111;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    background: #2d5bff;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* COPYRIGHT */
+.copyright {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+}

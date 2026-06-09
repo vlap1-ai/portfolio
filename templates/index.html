@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roy Portfolio</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-left">
+        <p>Hello, I’m Roy</p>
+
+        <h1>Designer & Developer<br>Building Modern Apps</h1>
+
+        <p>I create clean and modern web experiences.</p>
+
+        <button>View Projects</button>
+    </div>
+
+    <div class="hero-right">
+        <img src="{{ url_for('static', filename='roy.jpg') }}" alt="profile">
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="projects">
+
+    <h2>Featured Work</h2>
+
+    <div class="grid">
+
+        <a class="project" href="https://finance-tracker-n7aw.onrender.com/" target="_blank">
+            <img src="{{ url_for('static', filename='Personal Finance Tracker.jpeg') }}">
+            <div class="overlay">💰 Finance Tracker</div>
+        </a>
+
+        <a class="project" href="https://vlap1-ai.github.io/roy-music-lofi/" target="_blank">
+            <img src="{{ url_for('static', filename='Roy Music Lofi.jpeg') }}">
+            <div class="overlay">🎵 Music Lofi</div>
+        </a>
+
+        <a class="project" href="https://job-application-tracker-9er6.onrender.com/" target="_blank">
+            <img src="{{ url_for('static', filename='Job Application Tracker.jpeg') }}">
+            <div class="overlay">💼 Job Tracker</div>
+        </a>
+
+        <a class="project" href="https://nailsvoyou-website.onrender.com/" target="_blank">
+            <img src="{{ url_for('static', filename='Nails Vo You.jpeg') }}">
+            <div class="overlay">💅 NailsVoYou</div>
+        </a>
+
+    </div>
+
+</section>
+    <!-- FOOTER CONTACT -->
+    <footer class="footer">
+
+        <h2>Contact Me</h2>
+
+        <p class="footer-desc">
+            Feel free to connect with me on any platform below 🚀
+        </p>
+
+        <div class="footer-links">
+
+            <a href="https://github.com/vlap1-ai" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/lap-vo-86b659294/" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="https://youtube.com/@noname-si2wg?si=eHXJFsxefrhiXrkI" target="_blank">
+                YouTube
+            </a>
+
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                Email
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Roy. Built with passion.
+        </p>
+
+    </footer>
+</body>
+</html>
